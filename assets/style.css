@@ -1,0 +1,72 @@
+/* Reset & Base */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Centered content */
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-area {
+  max-width: 90%;
+}
+
+.logo {
+  width: 260px;          /* BIG logo */
+  height: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2878EB; /* Blue from your theme */
+  margin: 0;
+}
+
+h1 span {
+  color: #FF8800; /* Orange from your theme */
+}
+
+.btn {
+  margin-top: 20px;
+  display: inline-block;
+  background: #FF8800;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #e67500;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Footer sticks at bottom and scales */
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.95rem;
+  color: #666;
+}
