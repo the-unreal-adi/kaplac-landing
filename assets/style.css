@@ -95,6 +95,27 @@ h1 span {
   border-top: 2px solid #ddd; /* light grey line */
 }
 
+.review-btn-area {
+  margin-top: 25px;
+}
+
+.review-btn {
+  background-color: #4285F4; /* Google Blue */
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px 28px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.review-btn:hover {
+  background-color: #3367D6;
+  transform: translateY(-2px);
+}
+
+
 /* Footer sticks at bottom and scales */
 footer {
   background: #f1f1f1;
