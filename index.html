@@ -11,34 +11,59 @@
   <meta property="og:image" content="https://kaplac.com/assets/brand-image.png">
   <meta property="og:url" content="https://kaplac.com">
   <meta property="og:type" content="website">
+  <meta name="application-name" content="Kaplac Education">
+  <meta name="site_name" content="Kaplac Education">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Kaplac Education — Online Tutoring & Exam Prep">
   <meta name="twitter:description" content="Affordable tutoring for grades 1–10 plus NAPLAN, ICAS & selective school exam workshops in Australia, the US & Canada.">
   <meta name="twitter:image" content="https://kaplac.com/assets/brand-image.png">
   <meta name="robots" content="index, follow">
   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@type": "EducationalOrganization",
+      "@type": "Organization",
+      "@id": "https://kaplac.com/#org",
       "name": "Kaplac Education",
-      "url": "https://kaplac.com",
-      "logo": "https://kaplac.com/assets/brand-image.png",
+      "url": "https://kaplac.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://kaplac.com/#logo",
+        "url": "https://kaplac.com/assets/brand-image.png"
+      },
       "sameAs": [
         "https://www.facebook.com/people/Kaplac-education/61550486517695/",
         "https://www.instagram.com/kaplaceducation/",
-        "https://youtube.com/@kaplaceducation"
+        "https://youtube.com/@kaplaceducation",
+        "https://www.linkedin.com/company/kaplac-education/",
+        "https://www.google.com/maps?cid=0x391a83d54d7a5d07:0xcbbf2c1883b68ad4"
       ],
-      "areaServed":[{"@type":"Country","name":"Australia"},
-                {"@type":"Country","name":"United States"},
-                {"@type":"Country","name":"Canada"}],
-  "contactPoint":[{
-    "@type":"ContactPoint",
-    "contactType":"Customer Support",
-    "email":"info@kaplac.com",
-    "availableLanguage":["en"]
-  }]
+      "areaServed": [
+        {"@type":"Country","name":"Australia"},
+        {"@type":"Country","name":"United States"},
+        {"@type":"Country","name":"Canada"}
+      ],
+      "contactPoint": [{
+        "@type":"ContactPoint",
+        "contactType":"Customer Support",
+        "email":"info@kaplac.com",
+        "availableLanguage":["en"]
+      }]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kaplac.com/#website",
+      "url": "https://kaplac.com/",
+      "name": "Kaplac Education",
+      "alternateName": "Kaplac",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://kaplac.com/#org" }
     }
-  </script>
+  ]
+}
+</script>
+
   <link rel="stylesheet" href="assets/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
